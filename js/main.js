@@ -6,7 +6,7 @@ openMenu.addEventListener('click', () => {
   links.style.right = '0'
 })
 closeMenu.addEventListener('click', () => {
-  links.style.right = '-45%'
+  links.style.right = '-60%'
 })
 // End Show Menu
 // Start toogle active class on links
