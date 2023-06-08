@@ -161,10 +161,8 @@ nav {
   width: 40%;
 }
 .header .header-image img {
-  filter: drop-shadow(5px 5px 7px var(--black-color));
-  filter: drop-shadow(-5px -5px 7px var(--black-color));
-  /* position: relative;
-  top: 20px; */
+  filter: drop-shadow(4px 4px 3px var(--black-color))
+    drop-shadow(-4px -4px 3px var(--black-color));
 }
 .header .header-image img:hover {
   animation: rotating 1s infinite;
@@ -201,6 +199,7 @@ nav {
 }
 .header .btns .book-btn:hover {
   opacity: 0.85;
+  border-top-left-radius: 29px;
 }
 .header .btns .video-btn {
   color: var(--black-color);
@@ -378,7 +377,7 @@ nav {
 .gallery-images picture .image-layer .meal-name {
   font-size: 1.2rem;
   margin-bottom: 0.8rem;
-  color: var(--black-color);
+  color: #fff;
 }
 .gallery-images picture .image-layer p {
   font-size: 0.8rem;

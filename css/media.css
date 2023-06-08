@@ -27,6 +27,7 @@
     position: absolute;
     right: 10px;
     top: 20px;
+    font-size: 1.3rem;
   }
   .navbar ul.links li {
     padding-block: 1rem;
@@ -48,6 +49,9 @@
   }
 }
 @media screen and (max-width: 992px) {
+  .navbar ul.links {
+    width: 35%;
+  }
   .header .btns .book-btn {
     border-top-left-radius: 29px;
   }
@@ -119,6 +123,9 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .navbar ul.links {
+    width: 40%;
+  }
   .chefs .chefs-cards .chef-card {
     width: calc(100%);
   }
@@ -142,6 +149,9 @@
   }
 }
 @media screen and (max-width: 568px) {
+  .navbar ul.links {
+    width: 55%;
+  }
   .header .btns {
     flex-direction: column;
   }
